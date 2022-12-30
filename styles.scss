@@ -58,6 +58,11 @@ color: #2E8CAD;
     margin-top:50px;
     margin-bottom:50px;
   }
+  &.testymonials-title {
+    margin-top:50px;
+    margin-bottom:50px;
+    color:white;
+  }
 }
 
 .about-us-section-img-container {
@@ -126,13 +131,36 @@ p .services-paragraph {
 }
 
 .servies-card-img {
-  width:auto;
   height:290px;
   background-image: url(assets/images/services.png);
-  background-size:cover;
+  background-size:100%;
   background-position: center;
   background-repeat:no-repeat;
-  margin:0 auto !important;
+  // margin:0 auto !important;
+}
+
+.item-hover:hover {
+  opacity: 0.7;
+}
+
+.testymonial-card-title {
+  display:block;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #50B2EA;
+  margin-bottom:13px;
+}
+
+.testymonial-card-paragraph {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #19435A;
 }
 
 @media screen and (max-width: 767px) {
