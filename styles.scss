@@ -44,12 +44,95 @@ body {
   color: #2E8CAD;
 }
 
-.contact-us-title {
+.form-title {
 font-size: 48px;
 font-weight: 600;
 line-height: 56px;
 letter-spacing: 0em;
 color: #2E8CAD;
+  &.about-title {
+    margin-top:50px;
+    margin-bottom:40px;
+  }
+  &.services-title {
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+}
+
+.about-us-section-img-container {
+  width:24px;
+  height:24px;
+  margin-bottom:10px;
+    &.first-img {
+      background-image: url(assets/images/1.png);
+      background-size:cover;
+    }
+    &.second-img {
+      background-image: url(assets/images/2.png);
+      background-size:cover;
+    }
+    &.third-img {
+      background-image: url(assets/images/3.png);
+      background-size:cover;
+    }
+    &.fourth-img {
+      background-image: url(assets/images/4.png);
+      background-size:cover;
+    }
+    &.fifth-img {
+      background-image: url(assets/images/5.png);
+      background-size:cover;
+    }
+    &.sixth-img {
+      background-image: url(assets/images/6.png);
+      background-size:cover;
+    }
+}
+
+.about-us-section-card-content {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom:60px;
+  padding:5px;
+  max-width:330px;
+  color:#4F4F4F;
+}
+
+span.services-paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top:30px;
+}
+
+p .services-paragraph {
+  max-width:325px;
+}
+
+.services-paragraph-title {
+  display:inline-block;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-bottom:10px;
+}
+
+.servies-card-img {
+  width:auto;
+  height:290px;
+  background-image: url(assets/images/services.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin:0 auto !important;
 }
 
 @media screen and (max-width: 767px) {
